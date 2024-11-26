@@ -1,46 +1,140 @@
-# Getting Started with Create React App
+# To-Do App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and elegant **To-Do List** application built with **React**, **TypeScript**, and CSS. This project focuses on **clean design** and **best practices** to create a functional and visually appealing app.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **View Tasks**: See a list of all your to-do items.
+- **Filter Tasks**: Filter tasks by their status: All, Pending, or Completed.
+- **Add Tasks**: Add new tasks to your to-do list.
+- **Edit Tasks**: Modify the description of an existing task.
+- **Delete Tasks**: Remove tasks from the list.
+- **Mark as Completed**: Check off tasks when done.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![App Screenshot](path-to-your-screenshot.png)  
+_Add an image or link to your live app if hosted._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was built with the following technologies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** (with TypeScript)
+- **CSS** (with CSS variables for theme management)
+- **Vite** (for development and build optimization)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow these instructions to run the project locally on your machine.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v16 or later)
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   ```
 
-## Learn More
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. Open the app in your browser:
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+## File Structure
+
+Here's an overview of the project's file structure:
+
+```
+src/
+├── components/
+│   ├── TodoForm.tsx          // Component for adding new tasks
+│   ├── TodoList.tsx          // Component for rendering the task list
+│   ├── TodoItem.tsx          // Component for individual task items
+│   ├── FilterButtons.tsx     // Component for filter buttons
+├── App.tsx                   // Main app component
+├── App.css                   // Global styles
+├── types.ts                  // Type definitions for the app
+├── index.tsx                 // Entry point of the app
+```
+
+---
+
+## Design Highlights
+
+- **Clean and Modern UI**: The app uses CSS variables for consistent theming and modern styles.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **Code Organization**: Modular and reusable React components.
+
+---
+
+## How to Use
+
+1. **Add a Task**: Type a task description in the input box and click "Add."
+2. **Filter Tasks**: Use the filter buttons (All, Pending, Complete) to view tasks by status.
+3. **Edit or Delete Tasks**: Hover over a task to find the edit and delete options.
+4. **Mark as Complete**: Check the box next to a task to mark it as done.
+
+---
+
+## Future Enhancements
+
+- **Dark Mode**: Add a theme toggle for dark/light mode.
+- **Persistence**: Store tasks in local storage or integrate with a backend.
+- **Animations**: Add smooth transitions for task actions.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+1. Fork the project.
+2. Create a new branch (`feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'Add amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+Created by [Felipe Nogueira](https://github.com/felipefn15) – feel free to reach out! 😊
