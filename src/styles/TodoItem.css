@@ -1,0 +1,41 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: var(--card-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.todo-item:hover {
+  background-color: var(--hover-background-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.complete span {
+  text-decoration: line-through;
+  color: var(--text-muted-color);
+}
+
+.todo-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  border: none;
+  background: var(--danger-color);
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: darken(var(--danger-color), 10%);
+  color: var(--danger-color);
+}
