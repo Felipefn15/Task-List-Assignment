@@ -1,4 +1,4 @@
-# To-Do App
+# [To-Do App](https://task-list-assignment.vercel.app/)
 
 A simple and elegant **To-Do List** application built with **React**, **TypeScript**, and CSS. This project focuses on **clean design** and **best practices** to create a functional and visually appealing app.
 
@@ -13,12 +13,6 @@ A simple and elegant **To-Do List** application built with **React**, **TypeScri
 - **Delete Tasks**: Remove tasks from the list.
 - **Mark as Completed**: Check off tasks when done.
 
----
-
-## Demo
-
-![App Screenshot](path-to-your-screenshot.png)  
-_Add an image or link to your live app if hosted._
 
 ---
 
