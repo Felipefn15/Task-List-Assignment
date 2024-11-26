@@ -68,8 +68,8 @@ Ensure you have the following installed:
    ```
 
 5. Open the app in your browser:
-   ```
-   http://localhost:5173
+    ```
+    http://localhost:3000/
    ```
 
 ---
